@@ -1,0 +1,18 @@
+﻿@model ContaBancaria
+
+   <h1>Com produtos...</h1>
+<form>
+        <div class="card">
+            <div class="card-body bg-light">  
+                <p><b>Nome despesa: </b>@Model.NomeTitular</p>
+                <p><b>Quantidade: </b>@Model.Saldo</p>
+                <p><b>Valor: </b>@Model.Ativa </p>
+            </div>
+        </div>
+</form>
+    
+
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Voltar às Contas</a>
+</div>
